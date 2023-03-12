@@ -13,7 +13,6 @@ for _ in range(int(input())):
 
     i=n; j=m; sz=dp[n][m]
     lcs = ""
-    idx = sz-1
     while i>0 and j>0:
         if s[i-1] == t[j-1]:
             lcs += s[i-1]
