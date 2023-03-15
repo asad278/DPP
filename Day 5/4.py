@@ -2,7 +2,7 @@ import sys
 sys.stdin = open('inputf.in', 'r')
 sys.stdout = open('outputf.out', 'w')
 
-def ways(n, i, x, dp):
+def ways(n, m, x, dp):
     if (x<0) or (n==0 and x!=0) or (n!=0 and x==0):
         return 0
     if n==0 and x==0:
